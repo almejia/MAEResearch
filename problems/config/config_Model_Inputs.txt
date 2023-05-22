@@ -1,0 +1,5 @@
+## Configuration File for 1st-gen Langmuir Isotherm Fitting Routine (Entries on the Same Line Delimited by Spaces):
+
+## Inputs
+# Atmospheric Pressure of Data (Pa) | Sorbent Density (kg/m^3)
+101325 1429

@@ -1,0 +1,29 @@
+# The Order of the Desired Basis Functions [x^EnteredValue]
+4
+
+# The Number of Desired Beta Values
+3
+
+# The Number of Acting Covariates
+2
+
+# The Resolution of the Discrepancy
+499
+
+# The Number of Covariate Interactions
+2
+
+# The Path to the Basis Function File
+config/curt_basis_formatted.txt
+
+# The Path to the Beta Values and/or Interaction Matrix File
+config/InteractionMatrix.txt
+
+# Inversion Control | '0' doesn't invert bounds | '1' inverts bounds | (# of Values must match # of covariates)
+0 0
+
+# Parameter 1 | Site Fractions [-]
+0 1
+
+# Parameter 2 | Inverse Temperature [1/K]
+0 1

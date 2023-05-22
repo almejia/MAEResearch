@@ -1,0 +1,76 @@
+## Configuration File for 1st-gen Langmuir Isotherm Fitting Routine (Entries on the Same Line Delimited by Spaces):
+# 
+
+# Number of Parameters
+3
+
+## Observational Error Tuning Nu
+1.67
+
+# Observational Error Tuning Tau
+0.11
+
+# Number of Desired MCMC Steps
+200000
+
+# Counter Results
+5000
+
+# MCMC Parameter Proposal Mode ('Single' | 'Block')
+Block
+
+# Block Proposal Mode: Covariance Matrix Recalculation Rate (How often the Covariance is recalculated in # of MCMC Steps)
+200
+
+# Block Proposal Mode: Initial Adaptive Step (Initial value of the variable that ensures a dynamic stepping sequence | Step is multiplied by this value)
+0.4
+
+# Block Proposal Mode: Stop the Dynamic Step After this Many Steps
+15000
+
+# Block Proposal Mode: Acceptance Rates for the Adaptive Step (Low Bound/High Bound)
+1 10
+
+# Block Proposal Mode: Dynamic Step Recalculation Rate (How often the Dynamic Step is recalculated in # of MCMC Steps)
+250
+
+# Block Proposal Mode: Past Samples used in Calculating the Covariance Matrix
+400
+
+# Block Proposal Mode: Input Covariance Matrix ('1' for Yes |'0' for No)
+0
+
+# Parameters that require the log space to sampling correctly (0 for No / 1 for Yes | Length of Row Vector should match Number of Parameters)
+0 0 0
+
+## Dry CO2 Parameters
+# Reaction Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation [0]
+-125000.00 -100.00 -45000 500
+
+# Reaction Entropy Low | High (J/mol-K) | Starting Point | Standard Deviation [1]
+-500.00 -10.00 -150.0 5
+
+# Number of Active Adsorption Sites for Unit Volume Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [2]
+1600.00 30000.00 2400 70
+
+## Discrepancy Parameters
+# 1st Beta Parameter (Beta1) Low | High | Starting Point | Standard Deviation [3]
+-10 10 0 1
+
+# 2nd Beta Parameter (Beta2) Low | High | Starting Point | Standard Deviation [4]
+-50 50 0 1
+
+# 3rd Beta Parameter (Beta3) Low | High | Starting Point | Standard Deviation [5]
+-1000 1000 0 12.5
+
+# 4th Beta Parameter (Beta4) Low | High | Starting Point | Standard Deviation [6]
+-1000 1000 0 12.5
+
+# 5th Beta Parameter (Beta5) Low | High | Starting Point | Standard Deviation [7]
+-1000 1000 0 12.5
+
+# 6th Beta Parameter (Beta6) Low | High | Starting Point | Standard Deviation [8]
+-1000 1000 0 12.5
+
+# 7th Beta Parameter (Beta7) Low | High | Starting Point | Standard Deviation [9]
+-1000 1000 0 12.5
